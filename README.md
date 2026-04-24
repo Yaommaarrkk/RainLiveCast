@@ -1,0 +1,6 @@
+get_reflectivity：從公開API抓雷達回波圖相關的
+	get_reflectivity_historyData.py：下載歷史雷達回波資料(多個時間)並存到reflectivity_pic
+	reflectivity_pic：雷達回波資料(.npy格式)
+	get_reflectivity_data.py：下載單一時間點的雷達回波資料(提供給get_reflectivity_historyData呼叫)
+	get_reflectivity_pic.py：下載單一時間點的雷達回波圖(這應該不太好餵給AI 以後應該用不到)並存到get_reflectivity_pic.png
+	show_reflectivity_pic.py：讀取reflectivity_pic的資料並製圖
