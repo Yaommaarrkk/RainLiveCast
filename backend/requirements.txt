@@ -1,0 +1,10 @@
+tensorflow
+numpy
+opencv-python
+fastapi
+uvicorn
+requests
+xmltodict
+matplotlib
+pandas
+python-multipart
